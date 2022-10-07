@@ -1219,6 +1219,7 @@ class Tracker extends React.Component {
                 }
             }
         });
+        areas['Desert Colossus'].show = true
         return areas;
     }
 
