@@ -1716,6 +1716,9 @@ class Tracker extends React.Component {
             allAreas['Lost Woods'].show = true;
         }
 
+        shownAreas['Desert Colossus'].show = true;
+        allAreas['Desert Colossus'].show = true;
+
         // Filter areas with no visible entrances or locations
         Object.hideAreas = (entrances, predicate) =>
             Object.keys(entrances)
